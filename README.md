@@ -2,7 +2,8 @@
 
 # Hi there, I'm Maikel Hernández 👋
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;React+19+%7C+TypeScript+%7C+NestJS;Building+AI-powered+products+(RAG%2C+LLMs);Computer+Engineering+%40+TEC+Costa+Rica)](https://github.com/MaikelHR)
+### 💻 Full Stack Developer · React · TypeScript · NestJS
+**Building AI-powered products (RAG, LLMs) · Computer Engineering @ TEC Costa Rica** 🇨🇷
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Maikel%20Hernández-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maikel-hernández-ruiz-539004165)
 [![Email](https://img.shields.io/badge/Email-maikelhernandezr4201%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maikelhernandezr4201@gmail.com)
