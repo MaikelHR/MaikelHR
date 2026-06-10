@@ -14,7 +14,7 @@
 
 ## 🚀 About Me
 
-- 💻 **Full Stack Developer** — React 19 + strict TypeScript on the frontend, NestJS + SQL Server on the backend
+- 💻 **Full Stack Developer** - React 19 + strict TypeScript on the frontend, NestJS + SQL Server on the backend
 - 🤖 I build **AI-powered features**: RAG systems with pgvector, Anthropic Claude SDK (tool use), Gemini API, SSE streaming
 - 🏗️ Shipped **60+ user stories** on a real SaaS platform (microservices on Azure Kubernetes Service)
 - 📜 Finishing **Computer Engineering** at Tecnológico de Costa Rica (TEC)
@@ -40,7 +40,7 @@
 
 ## 📌 Featured Project
 
-### [DocuMind](https://github.com/MaikelHR/documind) — AI document assistant with verifiable citations *(live in production)*
+### [DocuMind](https://github.com/MaikelHR/documind) - AI document assistant with verifiable citations *(live in production)*
 
 > Full **RAG pipeline** end-to-end: Gemini embeddings → cosine similarity ranking (pgvector) → token-by-token **SSE streaming** with live citation markers. Upload your own PDFs and they compete in the same ranking as the corpus — every citation highlights the exact original passage.
 >
