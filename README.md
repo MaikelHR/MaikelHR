@@ -52,10 +52,10 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=MaikelHR&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub Stats" height="165">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaikelHR&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="165">
+<img src="https://github-readme-stats.vercel.app/api?username=MaikelHR&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&disable_animations=true" alt="GitHub Stats" height="165">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaikelHR&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&disable_animations=true" alt="Top Languages" height="165">
 
-<img src="https://streak-stats.demolab.com?user=MaikelHR&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165">
+<img src="https://streak-stats.demolab.com?user=MaikelHR&theme=tokyonight&hide_border=true&disable_animations=true" alt="GitHub Streak" height="165">
 
 </div>
 
