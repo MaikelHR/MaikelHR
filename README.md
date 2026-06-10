@@ -42,7 +42,7 @@
 
 ### [DocuMind](https://github.com/MaikelHR/documind) - AI document assistant with verifiable citations *(live in production)*
 
-> Full **RAG pipeline** end-to-end: Gemini embeddings → cosine similarity ranking (pgvector) → token-by-token **SSE streaming** with live citation markers. Upload your own PDFs and they compete in the same ranking as the corpus — every citation highlights the exact original passage.
+> Full **RAG pipeline** end-to-end: Gemini embeddings → cosine similarity ranking (pgvector) → token-by-token **SSE streaming** with live citation markers. Upload your own PDFs and they compete in the same ranking as the corpus, and every citation highlights the exact original passage.
 >
 > **Stack:** React 19 · TypeScript · Vite · Tailwind · Node serverless (Vercel) · Supabase (PostgreSQL + pgvector) · Gemini API
 >
