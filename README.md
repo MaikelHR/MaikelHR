@@ -3,11 +3,11 @@
 # Hi there, I'm Maikel Hernández 👋
 
 ### 💻 Full Stack Developer · React · TypeScript · NestJS
-**Building AI-powered products (RAG, LLMs) · Computer Engineering @ TEC Costa Rica** 🇨🇷
+**Building AI-powered products and reliable backends · Computer Engineering @ TEC Costa Rica** 🇨🇷
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-maikel--portafolio-6E56CF?style=for-the-badge&logo=vercel&logoColor=white)](https://maikel-portafolio.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Maikel%20Hernández-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maikel-hernández-ruiz-539004165)
 [![Email](https://img.shields.io/badge/Email-maikelhernandezr4201%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:maikelhernandezr4201@gmail.com)
-[![DocuMind](https://img.shields.io/badge/Live%20Demo-DocuMind-6E56CF?style=for-the-badge&logo=vercel&logoColor=white)](https://documind-lake.vercel.app)
 
 </div>
 
@@ -17,6 +17,7 @@
 
 - 💻 **Full Stack Developer** - React 19 + strict TypeScript on the frontend, NestJS + SQL Server on the backend
 - 🤖 I build **AI-powered features**: RAG systems with pgvector, Anthropic Claude SDK (tool use), Gemini API, SSE streaming
+- ⚙️ I care about **production-grade backends**: idempotency, at-least-once delivery, HMAC signing, retries with backoff, k6 load testing
 - 🏗️ Shipped **60+ user stories** on a real SaaS platform (microservices on Azure Kubernetes Service)
 - 📜 Finishing **Computer Engineering** at Tecnológico de Costa Rica (TEC)
 - 🌎 Based in Costa Rica 🇨🇷 · Working remotely · Spanish (native) / English (advanced)
@@ -39,7 +40,7 @@
 
 </div>
 
-## 📌 Featured Project
+## 📌 Featured Projects
 
 ### [DocuMind](https://github.com/MaikelHR/documind) - AI document assistant with verifiable citations *(live in production)*
 
@@ -48,6 +49,14 @@
 > **Stack:** React 19 · TypeScript · Vite · Tailwind · Node serverless (Vercel) · Supabase (PostgreSQL + pgvector) · Gemini API
 >
 > 🔗 **[Try it live →](https://documind-lake.vercel.app)**
+
+### [Hookwire](https://github.com/MaikelHR/Hookwire) - Webhook delivery service with retries and HMAC signing *(live in production)*
+
+> A reliable webhook pipeline with **no Redis or broker**: PostgreSQL is the queue, claimed with `FOR UPDATE SKIP LOCKED` so concurrent workers never deliver the same event twice. Exponential backoff with dead-letter and replay, **Stripe-style HMAC signatures** (constant-time verify), and **at-least-once** semantics with idempotency. Validated with k6 load tests against the live deploy.
+>
+> **Stack:** React 19 · TypeScript · Vite · Tailwind · Node serverless (Vercel) · Neon PostgreSQL · TanStack Query · k6
+>
+> 🔗 **[Try it live →](https://hookwire.vercel.app)**
 
 ## 📊 GitHub Stats
 
