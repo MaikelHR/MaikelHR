@@ -58,6 +58,14 @@
 >
 > 🔗 **[Try it live →](https://hookwire.vercel.app)**
 
+### [Vision Live](https://github.com/MaikelHR/vision-live) - Real-time object detection in the browser *(live)*
+
+> On-device ML with **no backend and no API keys**: opens your webcam and runs an object detection model (YOLOS, 80 COCO classes) on every frame, drawing boxes, labels and confidence over the live video. All compute happens on the user's machine via **Transformers.js on ONNX Runtime**, with **WebGPU** acceleration and a fallback to WebAssembly. The model downloads once and is cached, so it works offline afterwards — and camera frames never leave the device, so privacy is a property of the architecture, not a promise.
+>
+> **Stack:** React · TypeScript · Vite · Tailwind · Transformers.js · ONNX Runtime · WebGPU (WASM fallback) · Canvas 2D
+>
+> 🔗 **[Try it live →](https://vision-live.vercel.app)**
+
 ## 📊 GitHub Stats
 
 <div align="center">
