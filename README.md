@@ -60,11 +60,19 @@
 
 ### [Vision Live](https://github.com/MaikelHR/vision-live) - Real-time object detection in the browser *(live)*
 
-> On-device ML with **no backend and no API keys**: opens your webcam and runs an object detection model (YOLOS, 80 COCO classes) on every frame, drawing boxes, labels and confidence over the live video. All compute happens on the user's machine via **Transformers.js on ONNX Runtime**, with **WebGPU** acceleration and a fallback to WebAssembly. The model downloads once and is cached, so it works offline afterwards — and camera frames never leave the device, so privacy is a property of the architecture, not a promise.
+> On-device ML with **no backend and no API keys**: opens your webcam and runs an object detection model (YOLOS, 80 COCO classes) on every frame, drawing boxes, labels and confidence over the live video. All compute happens on the user's machine via **Transformers.js on ONNX Runtime**, with **WebGPU** acceleration and a fallback to WebAssembly. The model downloads once and is cached, so it works offline afterwards, and camera frames never leave the device, so privacy comes from the architecture itself.
 >
 > **Stack:** React · TypeScript · Vite · Tailwind · Transformers.js · ONNX Runtime · WebGPU (WASM fallback) · Canvas 2D
 >
 > 🔗 **[Try it live →](https://vision-live.vercel.app)**
+
+### [Cristales de la Cueva](https://github.com/MaikelHR/cristales-de-cueva) - Pixel-art platformer on a hand-rolled engine *(live)*
+
+> A browser platformer with metroidvania touches, built to learn game dev from the ground up. Custom engine with a **fixed-timestep loop** (accumulator locked to 60 steps/s), so the physics feel the same on any machine regardless of screen frame rate. **Every asset is drawn in code**: each sprite is a pixel grid with its palette, the atmosphere (light shafts, embers, fog, parallax) is generated at runtime, and the sound effects are synthesized with the Web Audio API. No external files at all. Careful **game feel** (coyote time, jump buffering, hit-stop, screen shake), keyboard and gamepad with adaptive on-screen prompts, and a full game loop with rooms, unlockable abilities, a boss, localStorage records and a speedrun timer. Production build weighs ~14 kB gzip with zero third-party dependencies.
+>
+> **Stack:** TypeScript · Vite · HTML5 Canvas · Web Audio API · Gamepad API · Vercel
+>
+> 🔗 **[Try it live →](https://cristales-de-cueva.vercel.app)**
 
 ## 📊 GitHub Stats
 
